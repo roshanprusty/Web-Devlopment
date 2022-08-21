@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formcss.css">
+    <script src="formjs.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <div class="inner-width">
+            <a href="#logo" class="logo"></a>
+
+            <div class="navbar-menu">
+                <a href="#faq">FAQ</a>
+                <a href="#dashboard">Dashboard</a>
+                <a href="#openapis">Open APIs</a>
+                <a href="#deparmentlogin">Deparment login</a>
+                <a href="#Vaccinator">Vaccinator</a>
+                <a href="#VerifyCertificate">Verify Certificate</a>
+
+            </div>
+        </div>
+    </nav>
+    <br><br> <br><br>
+    <nav class="navbar2">
+
+        <div class="inner-width2">
+            <a href="#logo" class="logo2"></a>
+
+            <!-- <div class="navbar-menu2">
+                <a class="register" href="application.html">REGISTER/Sign up yourself</a>
+
+            </div> -->
+        </div>
+    </nav>
+    <h1 class="h1">REGISTRATION FOR VACCINATION</h1>
+    <br>
+    <p class="p1">Your Photo Id will be verified at the time of your vaccination appointment. Please provide the details
+        of the
+        Photo Id you will carry for vaccination.</p>
+
+    <section id="joinnow">
+        <div class="inner-width">
+            <fieldset>
+                <legend id="a5">GET IN TOUCH WITH US </legend>
+
+                <form onsubmit="return validate()" action="https://www.mygov.in/covid-19/#:~:text=You%20can%20log%20into%20the,COVID%2D19%20vaccination." target="_self" class="joinnow-form">
+                    <input type="file" id="filezone" placeholder="any ID proof" required>
+
+                    <input type="text" id="namezone" placeholder="enter your full name" required>
+                    <!-- <input type="text" id="namezone" placeholder="enter your full name" required> -->
+                    <!-- //required inbuild validation but here it can trim space ***not so advanced**** -->
+                    <input type="email" id="emailzone" placeholder="enter your email address" required>
+                    <input type="number" id="numberzone" placeholder="enter your phone" required>
+                    <input type="text" id="statezone" placeholder="enter your state" required>
+                    <input type="text" id="cityzone" placeholder="enter your city" required>
+
+                    <span>
+                        <input type="submit" value="REGISTER" class="btn"></a>
+
+                        <input type="reset" value="RESET" class="btn"></span>
+                </form>
+            </fieldset>
+
+
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
